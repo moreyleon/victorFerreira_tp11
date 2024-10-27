@@ -1,6 +1,7 @@
 let pagoMes = 30000;
 let consumoKWH = 350;
 let recargo = 20*pagoMes/100+pagoMes;
+
 (consumoKWH > 300)? console.log(recargo): console.log("Ustede mantiene el subsidio,y pagara"+" "+"$"+pagoMes);
 
   
