@@ -1,9 +1,28 @@
-let perfil = administrador;
-// let perfilB = asistente;
-// let perfilC = invitado;
+
+let perfil = "asistente";
 
 
-console.log(perfil);
+
+if (perfil === "administrador") {
+    console.log("Usted tiene todos los privilegios de uso del sistema");
+}
+else if (perfil === "") {
+    console.log("Debe especificar el perfil del usuario");
+}
+
+else if (perfil === "asistente") {
+    console.log("Usted sólo tiene permisos de registrar,modificar y consultar datos");
+}
+else if (perfil === "invitado") {
+    console.log("Usted sólo tiene permisos de consultar datos");
+}
+else {
+    console.log("Debe especificar un perfil válido");
+
+}
+
+
+
 
 
 
